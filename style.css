@@ -173,6 +173,7 @@ nav li:last-child{
     .main-section {
         display: flex;
         flex-direction: column;
+        line-height: 2rem;
        
     }
     .food-img {
@@ -196,4 +197,19 @@ nav li:last-child{
     padding: 4%;
     gap: 1rem;
     }
+    .trending-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr );
+        padding: 4%;
+        gap: 1rem;
+        border: 1px solid black;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .center{
+        text-align: center;
+    }
+
 }
