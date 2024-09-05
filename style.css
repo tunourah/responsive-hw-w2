@@ -114,9 +114,28 @@ nav li:last-child{
     height: 125vh;
  }
 
-
-
-
+.green {
+    color: aquamarine;
+}
+.orange {
+    color: #d54215;
+}
+.yellow {
+    color: gold;
+}
+.description h1 a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 1.8rem;
+}
+ .description-details {
+     font-weight: 300;
+     color: #5a5656;
+ }
+ .captel-p {
+   text-transform: uppercase;
+ }
 /*  */
 @media (max-width: 600px) {
     nav {
@@ -190,7 +209,7 @@ nav li:last-child{
         flex-direction: column;
         
         
-        background-color: lightgreen;
+        background-color: #f5f6ea;
         width: 100vw;
         text-align: center;
         height: auto;
@@ -275,5 +294,11 @@ height: 20vh;
 .footer-info p {
     display: block;
 } 
-
+.weight {
+    font-weight: 700;
+}
+.sub-title-p {
+    text-align: start;
+    line-height: 1.4rem;
+}
 }
