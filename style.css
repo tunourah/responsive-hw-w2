@@ -242,6 +242,13 @@ nav li:last-child{
        
         
     }
+    .title-yollw {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #fbd657;
+        text-shadow: 0 0 3px #040404, 0 0 5px #010101;
+      margin-bottom: 2%;
+    }
     .justify {
         height: 80vh;
         justify-content: space-around;
