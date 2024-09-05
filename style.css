@@ -111,7 +111,7 @@ nav li:last-child{
  .border-orange {
     border: 10px solid rgb(226, 119, 80);
   margin: 2%;
-    height: 125vh;
+    height: 130vh;
  }
 
 .green {
@@ -248,6 +248,10 @@ nav li:last-child{
         color: #fbd657;
         text-shadow: 0 0 3px #040404, 0 0 5px #010101;
       margin-bottom: 2%;
+    }
+    .under-line {
+        border-bottom: 2px solid orange;
+        margin: 4%;
     }
     .justify {
         height: 80vh;
